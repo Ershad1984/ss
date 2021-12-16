@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: chartreuse;
+}
+#sign-up{
+    background-color: turquoise;
+    width: 50%;
+    text-align: center;
+    margin: 75px auto;
+}
+#sign-up img{
+    text-align: center;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+#sign-up h1{
+    color: wheat;
+}
+  
+input{
+   width: 90%;
+   background-color: transparent;
+   padding: 8px;
+   color: black;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+input::placeholder{
+    color: rgb(224, 14, 14);
+}
+
+.btn{
+    width: 92%;
+    margin-bottom: 20px;
+    background-color: wheat;
+    color: rgb(218, 31, 77);
+    border: none;
+}
